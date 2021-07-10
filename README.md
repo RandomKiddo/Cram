@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/RandomKiddo/Cram)](https://opensource.org/licenses/MIT)
 
-[Sister Repository - Uncram](https://github.com/RandomKiddo/Uncram)
+Sister Repository - [Uncram](https://github.com/RandomKiddo/Uncram)
 
 :exclamation: This repository's contents are not yet completed
 
@@ -61,7 +61,7 @@ Run-Length Encoding:
 - [Run-Length Encoding Wikipedia Page](https://en.wikipedia.org/wiki/Run-length_encoding)
 
 Huffman Encoding: 
-_ [Huffman Coding Algorithm](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+- [Huffman Coding Algorithm](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
 
 ___
 
