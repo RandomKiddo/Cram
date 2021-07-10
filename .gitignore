@@ -3,3 +3,9 @@
 
 # VSCode
 *.code-workspace
+.vscode/
+*.dSYM
+*.exe
+*.app
+*.out
+tasks.json
