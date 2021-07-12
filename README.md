@@ -39,6 +39,33 @@ Simplify a line like `aaaabbcddddee` to `a4b2c1d4e2`
 
 ##### LZW
 
+LZW compression wokrs by reading a string of symbols and grouping the symbols, and then coverting the groups into integer codes.
+
+LZW compression usess a code table, with 4096 being the most popular number of table entries. The codes from 0 to 255 are always assigned to single bytes of the input.
+
+When the encoding begins, the table contains the 256 entries of 0-255, and as compression continues, LZW identifies sequences in the data and assigns them a code, and adds the value to the code table.
+
+```cpp
+PSEUDOCODE
+Initialize table with single character strings
+P = first input
+WHILE not end of input stream
+    C = next input
+    IF P + C is in the code table
+        P = P + C
+    ELSE
+        output the code for P
+    add P + C to the string table
+        P = C
+    END WHILE
+output code for P
+```
+
+Here is a visualization:
+<img src="https://cdncontribute.geeksforgeeks.org/wp-content/uploads/lempel–ziv–welch-compression-technique.png">
+
+(Example Link Provided In [Further Reading](#further-reading))
+
 ##### Huffman
 
 Huffman encoding is a little complicated. I recommend visiting the [Further Reading](#further-reading) section to learn about it in more detail.
@@ -96,6 +123,10 @@ ___
 Run-Length Encoding:
 - [Run-Length Encoding Wikipedia Page](https://en.wikipedia.org/wiki/Run-length_encoding)
 
+LZW Encoding:
+- [LZW Wikipedia Page](https://en.wikipedia.org/wiki/Lempel–Ziv–Welch)
+- [LZW Examples & Algorithms](https://www.geeksforgeeks.org/lzw-lempel-ziv-welch-compression-technique/)
+
 Huffman Encoding: 
 - [About Huffman Encoding](https://www.studytonight.com/data-structures/huffman-coding)
 - [Huffman Coding Wikipedia Page](https://en.wikipedia.org/wiki/Huffman_coding)
@@ -114,4 +145,4 @@ ___
 
 [Back to Top](#cram)
 
-<sub>This page was last edited on 07.11.2021</sub>
+<sub>This page was last edited on 07.12.2021</sub>
