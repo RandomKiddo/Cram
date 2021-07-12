@@ -5,7 +5,10 @@
 *.code-workspace
 .vscode/
 *.dSYM
+
+# Executables
 *.exe
 *.app
 *.out
 tasks.json
+segmentation

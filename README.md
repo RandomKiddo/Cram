@@ -61,7 +61,9 @@ Run-Length Encoding:
 - [Run-Length Encoding Wikipedia Page](https://en.wikipedia.org/wiki/Run-length_encoding)
 
 Huffman Encoding: 
-- [Huffman Coding Algorithm](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+- [Alternate Huffman Coding Algorithms](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+- [About Huffman Encoding](https://www.studytonight.com/data-structures/huffman-coding)
+- [Huffman Coding Wikipedia Page](https://en.wikipedia.org/wiki/Huffman_coding)
 
 ___
 
