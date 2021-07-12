@@ -14,6 +14,7 @@ ___
 2. [Algorithms](#algorithms)
 3. [Sister Repository](#sister-repository)
 4. [Further Reading](#further-reading)
+5. [How to Run](#how-to-run)
 
 ___
 
@@ -98,6 +99,15 @@ Huffman Encoding:
 - [About Huffman Encoding](https://www.studytonight.com/data-structures/huffman-coding)
 - [Huffman Coding Wikipedia Page](https://en.wikipedia.org/wiki/Huffman_coding)
 - [Huffman Examples & Algorithms](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+
+___
+
+### How to Run
+
+Just simply download the [`cram_latest.zip`](https://github.com/RandomKiddo/cram/blob/master/cram_latest.zip) file in the repository and extract the contents.
+Then just run whichever file you want to test out. 
+
+`G++` compiler recommended. This repository has not been tested for `Clang`, `GCC`, or other compilers / linkers.
 
 ___
 
