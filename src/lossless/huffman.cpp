@@ -38,7 +38,7 @@ int main(void) {
     return 0;
 }
 
-void testCase(void) {
+void run(void) {
     std::string in;
     std::cout << "Enter an input dir: ";
     std::cin >> in;
