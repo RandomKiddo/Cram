@@ -57,7 +57,7 @@ character   Frequency
 
 You would then combine the two lowest frequency characters into one node (in this case a & b), with a value of their combined frequency (15). You would then sort the map once again, and continue the process until you reach the top (root) node. You can sort these nodes into a tree (usually a min heap). Then start at the root node, and going left will assign a value of "0", and going right would assign a value of "1". You then string these values together to get each character's encoding. You can then replace each character in the file with its encoded value.
 
-Here is a visualization using the data above:
+Here is a visualization using the data above: <br>
 <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/fig-6-300x167.jpg">
 
 ##### DFT
