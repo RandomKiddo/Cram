@@ -1,6 +1,7 @@
 # Cram
 
 [![License](https://img.shields.io/github/license/RandomKiddo/Cram)](https://opensource.org/licenses/MIT)
+[![Codacy Security Scan](https://github.com/RandomKiddo/Cram/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/RandomKiddo/Cram/actions/workflows/codacy-analysis.yml)
 
 Sister Repository - [Uncram](https://github.com/RandomKiddo/Uncram)
 
