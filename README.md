@@ -71,6 +71,8 @@ character   code-word
     e          111
 ```
 
+(Example Link Provided In [Further Reading](#further-reading))
+
 ##### DFT
 
 ##### Wavelet
@@ -95,6 +97,7 @@ Run-Length Encoding:
 Huffman Encoding: 
 - [About Huffman Encoding](https://www.studytonight.com/data-structures/huffman-coding)
 - [Huffman Coding Wikipedia Page](https://en.wikipedia.org/wiki/Huffman_coding)
+- [Huffman Examples & Algorithms](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
 
 ___
 
