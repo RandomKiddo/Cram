@@ -60,6 +60,17 @@ You would then combine the two lowest frequency characters into one node (in thi
 Here is a visualization using the data above: <br>
 <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/fig-6-300x167.jpg">
 
+This would result in the codes being:
+```cpp
+character   code-word
+    f          0
+    c          100
+    d          101
+    a          1100
+    b          1101
+    e          111
+```
+
 ##### DFT
 
 ##### Wavelet
