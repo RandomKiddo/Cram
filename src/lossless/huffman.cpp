@@ -1,3 +1,8 @@
+/**
+ * This file is licensed under the MIT License (MIT).
+ * Copyright (c) 2021 RandomKiddo
+ **/
+
 #include <string>
 #include <iostream>
 #include <fstream>
