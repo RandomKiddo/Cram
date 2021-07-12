@@ -107,7 +107,7 @@ ___
 Just simply download the [`cram_latest.zip`](https://github.com/RandomKiddo/cram/blob/master/cram_latest.zip) file in the repository and extract the contents.
 Then just run whichever file you want to test out. 
 
-`G++` compiler recommended. This repository has not been tested for `Clang`, `GCC`, or other compilers / linkers.
+:exclamation: `G++` compiler recommended. This repository has not been tested for `Clang`, `GCC`, `EDG`, and other compilers. `GCC` is the most likely alternative to work, since it is closely related to `G++`
 
 ___
 
