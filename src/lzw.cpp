@@ -13,9 +13,14 @@ std::vector<int> encode(std::string str);
 
 int main(void) {
     std::ifstream fin;
-    fin.open("/Users/firsttry/Desktop/Git/cram/master/src/test/lossless_lzw.txt");
     std::ofstream fout;
-    fout.open("/Users/firsttry/Desktop/Git/cram/master/src/test/lossless_lzw_c.txt");
+    std::string in, out;
+    std::cout << "Enter an input dir: ";
+    std::cin >> in;
+    std::cout << "\nEnter an output dir: ";
+    std::cin >> out;
+    fin.open(in.c_str());
+    fout.open(in.c_str());
     std::string buffer;
     while (std::getline(fin, buffer)) {
         std::vector<int> code = encode(buffer);
