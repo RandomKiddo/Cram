@@ -21,15 +21,14 @@ ___
 
 ### About
 
-Cram is a repository that attempts to implement multiple compression algorithms, both lossless and lossy, that span files like `.txt`, `.gif`, `.pdf`, etc. 
+Cram is a repository that attempts to implement multiple compression algorithms. 
+Algorithms implemented can be simple (like run-length) or complicated (like huffman).
 
 ___
 
 ### Algorithms
 
 This repository implements the following lossless algorithms: [Run Length](#run-length), [LZW](#lzw), and [Huffman](#huffman)
-
-This repository implements the following lossy algorithms: [DFT](#dft) and [Wavelet](#wavelet)
 
 ##### Run Length
 
@@ -101,10 +100,6 @@ character   code-word
 ```
 
 (Example Link Provided In [Further Reading](#further-reading))
-
-##### DFT
-
-##### Wavelet
 
 ___
 
